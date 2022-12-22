@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { FaGoogle, FaGithub, FaFacebook, FaWhatsapp, FaTwitter, FaDiscord, FaTwitch } from "react-icons/fa";
+import { FaGoogle, FaFacebook, FaWhatsapp, FaTwitter, FaDiscord, FaTwitch } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -25,9 +25,6 @@ const RightSideNav = () => {
       <ButtonGroup vertical>
         <Button onClick={handleGoogleSignin} className="mb-2" variant="outline-primary">
           <FaGoogle></FaGoogle> Log In with Google
-        </Button>
-        <Button variant="outline-dark">
-          <FaGithub></FaGithub> Log In with Github
         </Button>
       </ButtonGroup>
       <div className="mt-4">
